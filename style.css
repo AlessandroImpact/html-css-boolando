@@ -88,26 +88,23 @@ img{
         padding: 5px 10px;
     }
 
-#img1:hover{
-    background: url(img/1b.webp);
+.first-image{
+    display: block;
+}
+
+.second-image{
+    display: none;
 }
 
 
-#img2:hover{
-    background: url(img/2b.webp);
-}
-#img3:hover{
-    background: url(img/3b.webp);
+.product:hover .first-image{
+    display: none;
 }
 
-#img4:hover{
-    background: url(img/4b.webp);
+.product:hover .second-image{
+    display: block;
 }
 
-#img5:hover{
-    background: url(img/5b.webp);
-}
-
-.img6:hover{
-    background: url(img/6b.webp);
+.product:hover{
+    cursor: pointer;
 }
